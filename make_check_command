@@ -1,0 +1,1 @@
+pushd %{buildroot}%{gem_dir}/gems/formatador-0.2.5 && RUBYOPT=-I.:lib shindo && popd
