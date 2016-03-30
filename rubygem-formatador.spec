@@ -4,14 +4,13 @@
 #
 Name     : rubygem-formatador
 Version  : 0.2.5
-Release  : 7
+Release  : 8
 URL      : https://rubygems.org/downloads/formatador-0.2.5.gem
 Source0  : https://rubygems.org/downloads/formatador-0.2.5.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : ruby
-BuildRequires : rubygem-formatador
 BuildRequires : rubygem-rake
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-shindo
@@ -58,46 +57,19 @@ pushd %{buildroot}%{gem_dir}/gems/formatador-0.2.5 && RUBYOPT=-I.:lib shindo && 
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/formatador-0.2.5.gem
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/cdesc-ProgressBar.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/complete%3f-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/current-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/increment-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/opts-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/ProgressBar/total-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/calculate_datum-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/cdesc-Formatador.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/display-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/display_compact_table-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/display_line-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/display_lines-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/display_table-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/indent-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/indentation-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/length-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/new-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/new_line-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/parse-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/progressbar-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/redisplay-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/redisplay_line-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/redisplay_progressbar-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/Formatador/strip-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/doc/formatador-0.2.5/ri/page-README_rdoc.ri
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/CONTRIBUTING.md
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/CONTRIBUTORS.md
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/LICENSE.md
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/README.rdoc
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/changelog.txt
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/formatador.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/lib/formatador.rb
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/lib/formatador/progressbar.rb
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/lib/formatador/table.rb
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/tests/basic_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/tests/table_tests.rb
-/usr/lib64/ruby/gems/2.2.0/gems/formatador-0.2.5/tests/tests_helper.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/formatador-0.2.5.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/formatador-0.2.5.gem
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/CONTRIBUTING.md
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/CONTRIBUTORS.md
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/LICENSE.md
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/README.rdoc
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/changelog.txt
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/formatador.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/lib/formatador.rb
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/lib/formatador/progressbar.rb
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/lib/formatador/table.rb
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/tests/basic_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/tests/table_tests.rb
+/usr/lib64/ruby/gems/2.3.0/gems/formatador-0.2.5/tests/tests_helper.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/formatador-0.2.5.gemspec
