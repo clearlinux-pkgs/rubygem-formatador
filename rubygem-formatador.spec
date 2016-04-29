@@ -4,7 +4,7 @@
 #
 Name     : rubygem-formatador
 Version  : 0.2.5
-Release  : 8
+Release  : 9
 URL      : https://rubygems.org/downloads/formatador-0.2.5.gem
 Source0  : https://rubygems.org/downloads/formatador-0.2.5.gem
 Summary  : No detailed summary available
