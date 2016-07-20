@@ -4,13 +4,14 @@
 #
 Name     : rubygem-formatador
 Version  : 0.2.5
-Release  : 9
+Release  : 10
 URL      : https://rubygems.org/downloads/formatador-0.2.5.gem
 Source0  : https://rubygems.org/downloads/formatador-0.2.5.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : ruby
+BuildRequires : rubygem-formatador
 BuildRequires : rubygem-rake
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-shindo
@@ -27,6 +28,7 @@ gem unpack %{SOURCE0}
 gem spec %{SOURCE0} -l --ruby > rubygem-formatador.gemspec
 
 %build
+export LANG=C
 gem build rubygem-formatador.gemspec
 
 %install
@@ -49,6 +51,7 @@ cp -pa .%{_bindir}/* \
 fi
 
 %check
+export LANG=C
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost
